@@ -66,7 +66,8 @@ np.random.seed(20)
 syn0 = 2*np.random.random((20,1900)) - 1
 #print "Syn0",syn0.shape
 
-for iter in xrange(1000):
+epoch=1000
+for iter in xrange(epoch):
 
     #forward propagataion
     
@@ -93,24 +94,4 @@ for iter in xrange(1000):
 
 print "Output after training;"
 print l1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
